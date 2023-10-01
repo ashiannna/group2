@@ -14,7 +14,7 @@ top_10_job_titles.append("Analyze All")
 
 # Initialize the Dash app
 app = dash.Dash(__name__, serve_locally=True, external_stylesheets=["/assets/styles.css"])
-
+server = app.server
 # Define the layout of the app
 app.layout = html.Div(style={'backgroundColor': '#000814', 'margin': '0', 'padding': '200px', 'padding-top': '40px'},
                       children=[
