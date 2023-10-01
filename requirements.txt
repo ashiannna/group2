@@ -1,0 +1,6 @@
+pip install dash
+pip install dash-core-components
+pip install dash-html-components
+pip install dash-bootstrap-components  # Optional, if you want to use Bootstrap
+pip install pandas
+pip install plotly
