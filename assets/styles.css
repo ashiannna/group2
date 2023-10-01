@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin-top: -25px;
+}
+
+/* Style for the Cookbook button */
+a.dash-link {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    z-index: 999;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Style for the Cookbook button on hover */
+a.dash-link:hover {
+    background-color: white;
+    color: #000814; /* Change the text color on hover */
+}
